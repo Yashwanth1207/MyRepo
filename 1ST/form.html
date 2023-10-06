@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" method="get">  
+        <!-- get is not secure it shows the given data in the link and post is secure -->
+        <fieldset>
+            <legend></legend>
+        <label for="name"> Name: </label>
+        <input type="text" id="name" name="Name" placeholder="Enter your name"> <br><br>
+
+        <label for="add">Address</label>
+        <textarea name="address" id="add" cols="30" rows="10"></textarea> <br><br>
+
+        <label for="ps">Password: </label>
+        <input type="password" id="ps" name="Password" required placeholder="Enter your password"> <br><br>
+
+        <label for="email" >E-mail: </label>
+        <input type="email" id="email" name="Email"> <br><br>
+
+        <label for="phone"> Contace Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="mobile no"> <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="date"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="Gender" value="Male">Male
+        <input type="radio" id="gender" name="Gender" value="Female"> Female <br><br>
+
+        <label for="skills">Skills:</label>
+        <input type="checkbox" id="skills" name="skills" value="HTML">HTML 
+        <input type="checkbox" id="skills" name="skills" value="CSS">CSS
+        <input type="checkbox" id="skills" name="skills" value="JS">JS
+        <input type="checkbox" id="skills" name="skills" value="REACT">REACT <br><br>
+
+
+        <label for="con">Country:</label>
+        <select name="Country" id="con">
+            <option >Select</option>
+            <option value="india">india</option>
+            <option value="America">America</option>
+            <option value="Iraq">Iraq</option>
+            <option value="Japan">Japan</option>
+        </select> <br><br>
+
+
+        <label for="pic">Upload Pic:</label>
+        <input type="file" name="pic" id="pic"> <br><br>
+
+        <label for="company"></label>
+        <input type="text" name="company" id="company" value="wipro" readonly> <br><br>
+
+
+        <button type="submit"> Submit</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>

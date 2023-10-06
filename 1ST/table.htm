@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <h1>Table</h1>
+
+    <table border="1" cellpadding="50px" cellspacing="5px"
+     height="350px" width="600px" style="background-color: aqua;">
+     <caption>Hotel Rate Card   </caption>
+        <tr>
+            <thead>
+                <th>slno</th>
+                <th>item</th>
+                <th>cost</th>    
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dosa</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Idly</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Biryani</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Full Means</td>
+                <!-- <td>200</td> -->
+            </tr>
+            <tr>
+                <td colspan="2">Total Cost</td>
+                <td>510</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Assignment</h1>
+    <table border="1" cellpadding="50px" cellspacing="5px"
+    height="350px" width="600px" style="background-color: aqua;">
+        <tr>
+            <thead>
+                <th colspan="3"></th>
+                <!-- <th>2</th>
+                <th>3</th> -->
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">Dosa</td>
+                <!-- <td>50</td> -->
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td colspan="2">Idly</td>
+                <!-- <td>60</td> -->
+            </tr>
+            <tr>
+                <!-- <td>3</td> -->
+                <td colspan="2">Biryani</td>
+                <!-- <td rowspan="2">200</td> -->
+            </tr>
+            <tr>
+                <!-- <td>4</td> -->
+                <td>Full Means</td>
+                <!-- <td>200</td> -->
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+</html>
